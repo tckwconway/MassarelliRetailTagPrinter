@@ -45,41 +45,37 @@ Partial Class ctlBartender
         '
         Me.txtLabel.BackColor = System.Drawing.SystemColors.ButtonFace
         Me.txtLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.txtLabel.Location = New System.Drawing.Point(108, 5)
-        Me.txtLabel.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.txtLabel.Location = New System.Drawing.Point(72, 3)
         Me.txtLabel.Name = "txtLabel"
         Me.txtLabel.ReadOnly = True
-        Me.txtLabel.Size = New System.Drawing.Size(911, 26)
+        Me.txtLabel.Size = New System.Drawing.Size(608, 20)
         Me.txtLabel.TabIndex = 181
         '
         'Label1
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(50, 11)
-        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label1.Location = New System.Drawing.Point(33, 7)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(54, 23)
+        Me.Label1.Size = New System.Drawing.Size(37, 13)
         Me.Label1.TabIndex = 180
         Me.Label1.Text = "&Label:"
         '
         'picBartender
         '
         Me.picBartender.Image = CType(resources.GetObject("picBartender.Image"), System.Drawing.Image)
-        Me.picBartender.Location = New System.Drawing.Point(14, 8)
-        Me.picBartender.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.picBartender.Location = New System.Drawing.Point(9, 5)
         Me.picBartender.Name = "picBartender"
-        Me.picBartender.Size = New System.Drawing.Size(26, 25)
+        Me.picBartender.Size = New System.Drawing.Size(17, 16)
         Me.picBartender.TabIndex = 179
         Me.picBartender.TabStop = False
         '
         'PictureBox2
         '
         Me.PictureBox2.Image = CType(resources.GetObject("PictureBox2.Image"), System.Drawing.Image)
-        Me.PictureBox2.Location = New System.Drawing.Point(14, 82)
-        Me.PictureBox2.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.PictureBox2.Location = New System.Drawing.Point(9, 53)
         Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(24, 23)
+        Me.PictureBox2.Size = New System.Drawing.Size(16, 15)
         Me.PictureBox2.TabIndex = 177
         Me.PictureBox2.TabStop = False
         '
@@ -87,10 +83,9 @@ Partial Class ctlBartender
         '
         Me.Label7.AutoSize = True
         Me.Label7.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.Location = New System.Drawing.Point(39, 82)
-        Me.Label7.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label7.Location = New System.Drawing.Point(26, 53)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(65, 23)
+        Me.Label7.Size = New System.Drawing.Size(44, 13)
         Me.Label7.TabIndex = 176
         Me.Label7.Text = "&Printer:"
         '
@@ -99,10 +94,9 @@ Partial Class ctlBartender
         Me.btnPrint.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnPrint.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnPrint.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btnPrint.Location = New System.Drawing.Point(1064, 5)
-        Me.btnPrint.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.btnPrint.Location = New System.Drawing.Point(709, 3)
         Me.btnPrint.Name = "btnPrint"
-        Me.btnPrint.Size = New System.Drawing.Size(126, 63)
+        Me.btnPrint.Size = New System.Drawing.Size(84, 41)
         Me.btnPrint.TabIndex = 175
         Me.btnPrint.Text = " Print"
         Me.btnPrint.UseVisualStyleBackColor = True
@@ -113,10 +107,9 @@ Partial Class ctlBartender
         Me.btnLoadBartenderLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnLoadBartenderLabel.Image = CType(resources.GetObject("btnLoadBartenderLabel.Image"), System.Drawing.Image)
         Me.btnLoadBartenderLabel.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btnLoadBartenderLabel.Location = New System.Drawing.Point(1024, 5)
-        Me.btnLoadBartenderLabel.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.btnLoadBartenderLabel.Location = New System.Drawing.Point(683, 3)
         Me.btnLoadBartenderLabel.Name = "btnLoadBartenderLabel"
-        Me.btnLoadBartenderLabel.Size = New System.Drawing.Size(27, 28)
+        Me.btnLoadBartenderLabel.Size = New System.Drawing.Size(18, 18)
         Me.btnLoadBartenderLabel.TabIndex = 182
         Me.btnLoadBartenderLabel.TextAlign = System.Drawing.ContentAlignment.TopRight
         Me.btnLoadBartenderLabel.UseVisualStyleBackColor = True
@@ -131,10 +124,9 @@ Partial Class ctlBartender
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(15, 46)
-        Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label2.Location = New System.Drawing.Point(10, 30)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(88, 23)
+        Me.Label2.Size = New System.Drawing.Size(60, 13)
         Me.Label2.TabIndex = 183
         Me.Label2.Text = "&Separator:"
         '
@@ -142,11 +134,10 @@ Partial Class ctlBartender
         '
         Me.txtSeparator.BackColor = System.Drawing.SystemColors.ButtonFace
         Me.txtSeparator.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.txtSeparator.Location = New System.Drawing.Point(108, 40)
-        Me.txtSeparator.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.txtSeparator.Location = New System.Drawing.Point(72, 26)
         Me.txtSeparator.Name = "txtSeparator"
         Me.txtSeparator.ReadOnly = True
-        Me.txtSeparator.Size = New System.Drawing.Size(911, 26)
+        Me.txtSeparator.Size = New System.Drawing.Size(608, 20)
         Me.txtSeparator.TabIndex = 184
         '
         'btnLoadBartenderSeparator
@@ -155,10 +146,9 @@ Partial Class ctlBartender
         Me.btnLoadBartenderSeparator.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnLoadBartenderSeparator.Image = CType(resources.GetObject("btnLoadBartenderSeparator.Image"), System.Drawing.Image)
         Me.btnLoadBartenderSeparator.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btnLoadBartenderSeparator.Location = New System.Drawing.Point(1024, 40)
-        Me.btnLoadBartenderSeparator.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.btnLoadBartenderSeparator.Location = New System.Drawing.Point(683, 26)
         Me.btnLoadBartenderSeparator.Name = "btnLoadBartenderSeparator"
-        Me.btnLoadBartenderSeparator.Size = New System.Drawing.Size(27, 28)
+        Me.btnLoadBartenderSeparator.Size = New System.Drawing.Size(18, 18)
         Me.btnLoadBartenderSeparator.TabIndex = 185
         Me.btnLoadBartenderSeparator.TextAlign = System.Drawing.ContentAlignment.TopRight
         Me.btnLoadBartenderSeparator.UseVisualStyleBackColor = True
@@ -167,10 +157,9 @@ Partial Class ctlBartender
         '
         Me.Panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel1.Controls.Add(Me.cboPrinters)
-        Me.Panel1.Location = New System.Drawing.Point(106, 78)
-        Me.Panel1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.Panel1.Location = New System.Drawing.Point(71, 51)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(944, 33)
+        Me.Panel1.Size = New System.Drawing.Size(630, 22)
         Me.Panel1.TabIndex = 186
         '
         'cboPrinters
@@ -180,14 +169,13 @@ Partial Class ctlBartender
         Me.cboPrinters.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.cboPrinters.FormattingEnabled = True
         Me.cboPrinters.Location = New System.Drawing.Point(0, 0)
-        Me.cboPrinters.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.cboPrinters.Name = "cboPrinters"
-        Me.cboPrinters.Size = New System.Drawing.Size(942, 28)
+        Me.cboPrinters.Size = New System.Drawing.Size(628, 21)
         Me.cboPrinters.TabIndex = 179
         '
         'ctlBartender
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.btnLoadBartenderSeparator)
@@ -200,9 +188,8 @@ Partial Class ctlBartender
         Me.Controls.Add(Me.PictureBox2)
         Me.Controls.Add(Me.Label7)
         Me.Controls.Add(Me.btnPrint)
-        Me.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Name = "ctlBartender"
-        Me.Size = New System.Drawing.Size(1198, 123)
+        Me.Size = New System.Drawing.Size(799, 80)
         CType(Me.picBartender, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel1.ResumeLayout(False)

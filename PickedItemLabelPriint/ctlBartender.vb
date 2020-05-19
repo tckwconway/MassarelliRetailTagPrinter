@@ -43,8 +43,8 @@ Public Class ctlBartender
             cboPrinters.Text = .Printer
         End With
 
-        SetButton(btnPrint)
-       
+
+
     End Sub
 
 
@@ -145,19 +145,12 @@ Public Class ctlBartender
         RaiseEvent PrintLables()
     End Sub
 
-    Private Sub cboPrinters_DisplayMemberChanged1(sender As Object, e As System.EventArgs) Handles cboPrinters.DisplayMemberChanged
-        My.Settings.Printer = cboPrinters.Text
-        My.Settings.Save()
-        bto.PrinterName = cboPrinters.Text
-        SetButton(btnPrint)
-    End Sub
-
-
-    Private Sub cboPrinters_DisplayMemberChanged(sender As Object, e As System.EventArgs)
+    Private Sub cboPrinters_DisplayMemberChanged(sender As Object, e As System.EventArgs) Handles cboPrinters.DropDownClosed
         My.Settings.Printer = cboPrinters.Text
         My.Settings.Save()
         bto.PrinterName = cboPrinters.Text
     End Sub
+
     Private Sub btnLoadBartenderLabel_Click(sender As System.Object, e As System.EventArgs) Handles btnLoadBartenderLabel.Click
         Dim op As OpenFileDialog = DirectCast(Me.OpenFileDialogBartender, OpenFileDialog)
 
@@ -171,7 +164,7 @@ Public Class ctlBartender
         My.Settings.Save()
         txtLabel.Text = My.Settings.Label
         bto.LabelPathFile = My.Settings.Label
-        SetButton(btnPrint)
+
     End Sub
     Private Sub btnLoadBartenderSeparator_Click(sender As System.Object, e As System.EventArgs) Handles btnLoadBartenderSeparator.Click
         Dim op As OpenFileDialog = DirectCast(Me.OpenFileDialogBartender, OpenFileDialog)
@@ -186,17 +179,9 @@ Public Class ctlBartender
         My.Settings.Save()
         txtSeparator.Text = My.Settings.Separator
         bto.SeparatorPathFile = My.Settings.Separator
-        SetButton(btnPrint)
+
     End Sub
-    Private Sub SetButton(btn As Button)
-        'If btn.Name = "btnPrint" Then
-        '    If My.Settings.Label > "" And My.Settings.Printer > "" Then
-        '        btn.Enabled = True
-        '    Else
-        '        btn.Enabled = False
-        '    End If
-        'End If
-    End Sub
+
 
 
     Public Sub Print(itm As Item)
@@ -452,6 +437,7 @@ Public Class ctlBartender
         Dim sSQL As String = "Update OEORDHDR_SQL set User_def_fld_1 = 'Y' where ord_no = '" & ord_no.Trim & "'"
         DAC.Execute_NonSQL(sSQL, cn)
     End Sub
+
 
 End Class
 

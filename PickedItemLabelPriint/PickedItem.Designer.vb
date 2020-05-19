@@ -87,17 +87,15 @@ Partial Class PickedOrder
         Me.Panel1.Controls.Add(Me.StatusStrip1)
         Me.Panel1.Controls.Add(Me.Panel2)
         Me.Panel1.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Panel1.Location = New System.Drawing.Point(21, 135)
-        Me.Panel1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.Panel1.Location = New System.Drawing.Point(14, 88)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(1366, 799)
+        Me.Panel1.Size = New System.Drawing.Size(911, 519)
         Me.Panel1.TabIndex = 3
         '
         'SplitContainer1
         '
         Me.SplitContainer1.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.SplitContainer1.Location = New System.Drawing.Point(0, 57)
-        Me.SplitContainer1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.SplitContainer1.Location = New System.Drawing.Point(0, 37)
         Me.SplitContainer1.Name = "SplitContainer1"
         Me.SplitContainer1.Orientation = System.Windows.Forms.Orientation.Horizontal
         '
@@ -108,9 +106,8 @@ Partial Class PickedOrder
         'SplitContainer1.Panel2
         '
         Me.SplitContainer1.Panel2.Controls.Add(Me.DataGridView2)
-        Me.SplitContainer1.Size = New System.Drawing.Size(1366, 720)
-        Me.SplitContainer1.SplitterDistance = 211
-        Me.SplitContainer1.SplitterWidth = 6
+        Me.SplitContainer1.Size = New System.Drawing.Size(911, 460)
+        Me.SplitContainer1.SplitterDistance = 134
         Me.SplitContainer1.TabIndex = 3
         '
         'DataGridView1
@@ -119,9 +116,8 @@ Partial Class PickedOrder
         Me.DataGridView1.ContextMenuStrip = Me.ContextMenuStrip1
         Me.DataGridView1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.DataGridView1.Location = New System.Drawing.Point(0, 0)
-        Me.DataGridView1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.DataGridView1.Name = "DataGridView1"
-        Me.DataGridView1.Size = New System.Drawing.Size(1366, 211)
+        Me.DataGridView1.Size = New System.Drawing.Size(911, 134)
         Me.DataGridView1.TabIndex = 3
         '
         'ContextMenuStrip1
@@ -129,12 +125,12 @@ Partial Class PickedOrder
         Me.ContextMenuStrip1.ImageScalingSize = New System.Drawing.Size(24, 24)
         Me.ContextMenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.RemoveRowToolStripMenuItem})
         Me.ContextMenuStrip1.Name = "ContextMenuStrip1"
-        Me.ContextMenuStrip1.Size = New System.Drawing.Size(188, 34)
+        Me.ContextMenuStrip1.Size = New System.Drawing.Size(144, 26)
         '
         'RemoveRowToolStripMenuItem
         '
         Me.RemoveRowToolStripMenuItem.Name = "RemoveRowToolStripMenuItem"
-        Me.RemoveRowToolStripMenuItem.Size = New System.Drawing.Size(187, 30)
+        Me.RemoveRowToolStripMenuItem.Size = New System.Drawing.Size(143, 22)
         Me.RemoveRowToolStripMenuItem.Text = "Remove Row"
         '
         'DataGridView2
@@ -142,53 +138,51 @@ Partial Class PickedOrder
         Me.DataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.DataGridView2.Dock = System.Windows.Forms.DockStyle.Fill
         Me.DataGridView2.Location = New System.Drawing.Point(0, 0)
-        Me.DataGridView2.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.DataGridView2.Name = "DataGridView2"
-        Me.DataGridView2.Size = New System.Drawing.Size(1366, 503)
+        Me.DataGridView2.Size = New System.Drawing.Size(911, 322)
         Me.DataGridView2.TabIndex = 2
         '
         'StatusStrip1
         '
         Me.StatusStrip1.ImageScalingSize = New System.Drawing.Size(24, 24)
         Me.StatusStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.lblPricingType, Me.lblDivider1, Me.lblCount, Me.lblDivider2, Me.lblCurrentDB, Me.lblDivider3, Me.lblDefaultDB, Me.lblServer})
-        Me.StatusStrip1.Location = New System.Drawing.Point(0, 777)
+        Me.StatusStrip1.Location = New System.Drawing.Point(0, 497)
         Me.StatusStrip1.Name = "StatusStrip1"
-        Me.StatusStrip1.Padding = New System.Windows.Forms.Padding(2, 0, 21, 0)
-        Me.StatusStrip1.Size = New System.Drawing.Size(1366, 22)
+        Me.StatusStrip1.Size = New System.Drawing.Size(911, 22)
         Me.StatusStrip1.TabIndex = 182
         Me.StatusStrip1.Text = "StatusStrip1"
         '
         'lblPricingType
         '
         Me.lblPricingType.Name = "lblPricingType"
-        Me.lblPricingType.Size = New System.Drawing.Size(0, 23)
+        Me.lblPricingType.Size = New System.Drawing.Size(0, 17)
         '
         'lblDivider1
         '
         Me.lblDivider1.BorderSides = System.Windows.Forms.ToolStripStatusLabelBorderSides.Left
         Me.lblDivider1.BorderStyle = System.Windows.Forms.Border3DStyle.Sunken
         Me.lblDivider1.Name = "lblDivider1"
-        Me.lblDivider1.Size = New System.Drawing.Size(4, 23)
+        Me.lblDivider1.Size = New System.Drawing.Size(4, 17)
         Me.lblDivider1.Visible = False
         '
         'lblCount
         '
         Me.lblCount.Name = "lblCount"
-        Me.lblCount.Size = New System.Drawing.Size(0, 23)
+        Me.lblCount.Size = New System.Drawing.Size(0, 17)
         '
         'lblDivider2
         '
         Me.lblDivider2.BorderSides = System.Windows.Forms.ToolStripStatusLabelBorderSides.Left
         Me.lblDivider2.BorderStyle = System.Windows.Forms.Border3DStyle.Sunken
         Me.lblDivider2.Name = "lblDivider2"
-        Me.lblDivider2.Size = New System.Drawing.Size(4, 23)
+        Me.lblDivider2.Size = New System.Drawing.Size(4, 17)
         Me.lblDivider2.Visible = False
         '
         'lblCurrentDB
         '
         Me.lblCurrentDB.Name = "lblCurrentDB"
         Me.lblCurrentDB.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.lblCurrentDB.Size = New System.Drawing.Size(0, 23)
+        Me.lblCurrentDB.Size = New System.Drawing.Size(0, 17)
         Me.lblCurrentDB.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
         'lblDivider3
@@ -196,19 +190,19 @@ Partial Class PickedOrder
         Me.lblDivider3.BorderSides = System.Windows.Forms.ToolStripStatusLabelBorderSides.Left
         Me.lblDivider3.BorderStyle = System.Windows.Forms.Border3DStyle.Sunken
         Me.lblDivider3.Name = "lblDivider3"
-        Me.lblDivider3.Size = New System.Drawing.Size(4, 23)
+        Me.lblDivider3.Size = New System.Drawing.Size(4, 17)
         '
         'lblDefaultDB
         '
         Me.lblDefaultDB.Name = "lblDefaultDB"
-        Me.lblDefaultDB.Size = New System.Drawing.Size(0, 23)
+        Me.lblDefaultDB.Size = New System.Drawing.Size(0, 17)
         Me.lblDefaultDB.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         Me.lblDefaultDB.Visible = False
         '
         'lblServer
         '
         Me.lblServer.Name = "lblServer"
-        Me.lblServer.Size = New System.Drawing.Size(0, 23)
+        Me.lblServer.Size = New System.Drawing.Size(0, 17)
         '
         'Panel2
         '
@@ -228,17 +222,17 @@ Partial Class PickedOrder
         Me.Panel2.Controls.Add(Me.lblLabelList)
         Me.Panel2.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel2.Location = New System.Drawing.Point(0, 0)
-        Me.Panel2.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(1366, 57)
+        Me.Panel2.Size = New System.Drawing.Size(911, 37)
         Me.Panel2.TabIndex = 4
         '
         'btnPricesAreMissing
         '
         Me.btnPricesAreMissing.ForeColor = System.Drawing.Color.MediumBlue
-        Me.btnPricesAreMissing.Location = New System.Drawing.Point(1194, 12)
+        Me.btnPricesAreMissing.Location = New System.Drawing.Point(796, 8)
+        Me.btnPricesAreMissing.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.btnPricesAreMissing.Name = "btnPricesAreMissing"
-        Me.btnPricesAreMissing.Size = New System.Drawing.Size(168, 34)
+        Me.btnPricesAreMissing.Size = New System.Drawing.Size(112, 22)
         Me.btnPricesAreMissing.TabIndex = 193
         Me.btnPricesAreMissing.Text = "If Prices are missing"
         Me.btnPricesAreMissing.UseVisualStyleBackColor = True
@@ -247,21 +241,19 @@ Partial Class PickedOrder
         '
         Me.txtBarcode.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtBarcode.Font = New System.Drawing.Font("Segoe UI", 9.75!)
-        Me.txtBarcode.Location = New System.Drawing.Point(1050, 57)
-        Me.txtBarcode.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.txtBarcode.Location = New System.Drawing.Point(700, 37)
         Me.txtBarcode.Name = "txtBarcode"
         Me.txtBarcode.ReadOnly = True
-        Me.txtBarcode.Size = New System.Drawing.Size(124, 33)
+        Me.txtBarcode.Size = New System.Drawing.Size(83, 25)
         Me.txtBarcode.TabIndex = 192
         '
         'Label4
         '
         Me.Label4.Font = New System.Drawing.Font("Segoe UI", 10.8!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.ForeColor = System.Drawing.SystemColors.MenuText
-        Me.Label4.Location = New System.Drawing.Point(909, 62)
-        Me.Label4.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label4.Location = New System.Drawing.Point(606, 40)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(135, 31)
+        Me.Label4.Size = New System.Drawing.Size(90, 20)
         Me.Label4.TabIndex = 191
         Me.Label4.Text = "Barcode:"
         Me.Label4.TextAlign = System.Drawing.ContentAlignment.MiddleRight
@@ -270,32 +262,29 @@ Partial Class PickedOrder
         '
         Me.txtUserAmount.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtUserAmount.Font = New System.Drawing.Font("Segoe UI", 9.75!)
-        Me.txtUserAmount.Location = New System.Drawing.Point(501, 57)
-        Me.txtUserAmount.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.txtUserAmount.Location = New System.Drawing.Point(334, 37)
         Me.txtUserAmount.Name = "txtUserAmount"
         Me.txtUserAmount.ReadOnly = True
-        Me.txtUserAmount.Size = New System.Drawing.Size(124, 33)
+        Me.txtUserAmount.Size = New System.Drawing.Size(83, 25)
         Me.txtUserAmount.TabIndex = 189
         '
         'txtCustomer
         '
         Me.txtCustomer.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtCustomer.Font = New System.Drawing.Font("Segoe UI", 9.75!)
-        Me.txtCustomer.Location = New System.Drawing.Point(168, 57)
-        Me.txtCustomer.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.txtCustomer.Location = New System.Drawing.Point(112, 37)
         Me.txtCustomer.Name = "txtCustomer"
         Me.txtCustomer.ReadOnly = True
-        Me.txtCustomer.Size = New System.Drawing.Size(154, 33)
+        Me.txtCustomer.Size = New System.Drawing.Size(103, 25)
         Me.txtCustomer.TabIndex = 188
         '
         'Label2
         '
         Me.Label2.Font = New System.Drawing.Font("Segoe UI", 10.8!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.SystemColors.MenuText
-        Me.Label2.Location = New System.Drawing.Point(332, 58)
-        Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label2.Location = New System.Drawing.Point(221, 38)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(154, 31)
+        Me.Label2.Size = New System.Drawing.Size(103, 20)
         Me.Label2.TabIndex = 187
         Me.Label2.Text = "User Amount:"
         Me.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleRight
@@ -304,10 +293,9 @@ Partial Class PickedOrder
         '
         Me.Label1.Font = New System.Drawing.Font("Segoe UI", 10.8!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.SystemColors.MenuText
-        Me.Label1.Location = New System.Drawing.Point(4, 58)
-        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label1.Location = New System.Drawing.Point(3, 38)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(154, 31)
+        Me.Label1.Size = New System.Drawing.Size(103, 20)
         Me.Label1.TabIndex = 186
         Me.Label1.Text = "Customer:"
         Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleRight
@@ -317,29 +305,28 @@ Partial Class PickedOrder
         Me.Panel3.Controls.Add(Me.Label7)
         Me.Panel3.Controls.Add(Me.PictureBox2)
         Me.Panel3.Controls.Add(Me.cbDBList)
-        Me.Panel3.Location = New System.Drawing.Point(906, 3)
+        Me.Panel3.Location = New System.Drawing.Point(604, 2)
+        Me.Panel3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Panel3.Name = "Panel3"
-        Me.Panel3.Size = New System.Drawing.Size(267, 54)
+        Me.Panel3.Size = New System.Drawing.Size(178, 35)
         Me.Panel3.TabIndex = 185
         '
         'Label7
         '
         Me.Label7.AutoSize = True
         Me.Label7.Font = New System.Drawing.Font("Segoe UI", 10.0!)
-        Me.Label7.Location = New System.Drawing.Point(36, 12)
-        Me.Label7.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label7.Location = New System.Drawing.Point(24, 8)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(57, 28)
+        Me.Label7.Size = New System.Drawing.Size(41, 19)
         Me.Label7.TabIndex = 187
         Me.Label7.Text = "&Data:"
         '
         'PictureBox2
         '
         Me.PictureBox2.Image = CType(resources.GetObject("PictureBox2.Image"), System.Drawing.Image)
-        Me.PictureBox2.Location = New System.Drawing.Point(8, 15)
-        Me.PictureBox2.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.PictureBox2.Location = New System.Drawing.Point(5, 10)
         Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(24, 23)
+        Me.PictureBox2.Size = New System.Drawing.Size(16, 15)
         Me.PictureBox2.TabIndex = 186
         Me.PictureBox2.TabStop = False
         '
@@ -347,19 +334,17 @@ Partial Class PickedOrder
         '
         Me.cbDBList.Font = New System.Drawing.Font("Segoe UI Semibold", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cbDBList.FormattingEnabled = True
-        Me.cbDBList.Location = New System.Drawing.Point(111, 6)
-        Me.cbDBList.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.cbDBList.Location = New System.Drawing.Point(74, 4)
         Me.cbDBList.Name = "cbDBList"
-        Me.cbDBList.Size = New System.Drawing.Size(151, 36)
+        Me.cbDBList.Size = New System.Drawing.Size(102, 27)
         Me.cbDBList.TabIndex = 183
         '
         'btnClear
         '
         Me.btnClear.Font = New System.Drawing.Font("Segoe UI", 9.75!)
-        Me.btnClear.Location = New System.Drawing.Point(332, 11)
-        Me.btnClear.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.btnClear.Location = New System.Drawing.Point(221, 7)
         Me.btnClear.Name = "btnClear"
-        Me.btnClear.Size = New System.Drawing.Size(154, 38)
+        Me.btnClear.Size = New System.Drawing.Size(103, 25)
         Me.btnClear.TabIndex = 183
         Me.btnClear.Text = "Clear Grids"
         Me.btnClear.UseVisualStyleBackColor = True
@@ -371,8 +356,7 @@ Partial Class PickedOrder
         Me.btnRefreshDB.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnRefreshDB.Image = CType(resources.GetObject("btnRefreshDB.Image"), System.Drawing.Image)
         Me.btnRefreshDB.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.btnRefreshDB.Location = New System.Drawing.Point(816, 6)
-        Me.btnRefreshDB.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.btnRefreshDB.Location = New System.Drawing.Point(544, 4)
         Me.btnRefreshDB.Name = "btnRefreshDB"
         Me.btnRefreshDB.Size = New System.Drawing.Size(30, 30)
         Me.btnRefreshDB.TabIndex = 184
@@ -383,10 +367,9 @@ Partial Class PickedOrder
         'btnSearch
         '
         Me.btnSearch.Font = New System.Drawing.Font("Segoe UI", 9.75!)
-        Me.btnSearch.Location = New System.Drawing.Point(168, 11)
-        Me.btnSearch.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.btnSearch.Location = New System.Drawing.Point(112, 7)
         Me.btnSearch.Name = "btnSearch"
-        Me.btnSearch.Size = New System.Drawing.Size(154, 38)
+        Me.btnSearch.Size = New System.Drawing.Size(103, 25)
         Me.btnSearch.TabIndex = 182
         Me.btnSearch.Text = "Order# Search"
         Me.btnSearch.UseVisualStyleBackColor = True
@@ -395,10 +378,9 @@ Partial Class PickedOrder
         '
         Me.txtOrderSearch.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtOrderSearch.Font = New System.Drawing.Font("Segoe UI", 9.75!)
-        Me.txtOrderSearch.Location = New System.Drawing.Point(0, 11)
-        Me.txtOrderSearch.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.txtOrderSearch.Location = New System.Drawing.Point(0, 7)
         Me.txtOrderSearch.Name = "txtOrderSearch"
-        Me.txtOrderSearch.Size = New System.Drawing.Size(154, 33)
+        Me.txtOrderSearch.Size = New System.Drawing.Size(103, 25)
         Me.txtOrderSearch.TabIndex = 181
         '
         'btnSaveDefaultDB
@@ -408,8 +390,7 @@ Partial Class PickedOrder
         Me.btnSaveDefaultDB.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnSaveDefaultDB.Image = CType(resources.GetObject("btnSaveDefaultDB.Image"), System.Drawing.Image)
         Me.btnSaveDefaultDB.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.btnSaveDefaultDB.Location = New System.Drawing.Point(866, 6)
-        Me.btnSaveDefaultDB.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.btnSaveDefaultDB.Location = New System.Drawing.Point(577, 4)
         Me.btnSaveDefaultDB.Name = "btnSaveDefaultDB"
         Me.btnSaveDefaultDB.Size = New System.Drawing.Size(30, 30)
         Me.btnSaveDefaultDB.TabIndex = 185
@@ -422,10 +403,9 @@ Partial Class PickedOrder
         Me.lblLabelList.AutoSize = True
         Me.lblLabelList.Font = New System.Drawing.Font("Segoe UI Semibold", 14.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle))
         Me.lblLabelList.ForeColor = System.Drawing.SystemColors.MenuText
-        Me.lblLabelList.Location = New System.Drawing.Point(495, 11)
-        Me.lblLabelList.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lblLabelList.Location = New System.Drawing.Point(330, 7)
         Me.lblLabelList.Name = "lblLabelList"
-        Me.lblLabelList.Size = New System.Drawing.Size(218, 38)
+        Me.lblLabelList.Size = New System.Drawing.Size(147, 25)
         Me.lblLabelList.TabIndex = 179
         Me.lblLabelList.Text = "Retail Label List"
         '
@@ -438,10 +418,9 @@ Partial Class PickedOrder
         Me.btnRefresh.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnRefresh.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnRefresh.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btnRefresh.Location = New System.Drawing.Point(1668, 82)
-        Me.btnRefresh.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.btnRefresh.Location = New System.Drawing.Point(1112, 53)
         Me.btnRefresh.Name = "btnRefresh"
-        Me.btnRefresh.Size = New System.Drawing.Size(18, 31)
+        Me.btnRefresh.Size = New System.Drawing.Size(12, 20)
         Me.btnRefresh.TabIndex = 176
         Me.btnRefresh.Text = "Load Pending"
         Me.ToolTip1.SetToolTip(Me.btnRefresh, "Reload confirm picked orders")
@@ -453,10 +432,9 @@ Partial Class PickedOrder
         Me.btnReprint.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnReprint.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnReprint.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btnReprint.Location = New System.Drawing.Point(1716, 65)
-        Me.btnReprint.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.btnReprint.Location = New System.Drawing.Point(1144, 42)
         Me.btnReprint.Name = "btnReprint"
-        Me.btnReprint.Size = New System.Drawing.Size(15, 43)
+        Me.btnReprint.Size = New System.Drawing.Size(10, 28)
         Me.btnReprint.TabIndex = 177
         Me.btnReprint.Text = "Load RePrint"
         Me.ToolTip1.SetToolTip(Me.btnReprint, "Load previouisly printed labels")
@@ -468,10 +446,9 @@ Partial Class PickedOrder
         Me.btnRemove.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnRemove.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnRemove.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btnRemove.Location = New System.Drawing.Point(1695, 71)
-        Me.btnRemove.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.btnRemove.Location = New System.Drawing.Point(1130, 46)
         Me.btnRemove.Name = "btnRemove"
-        Me.btnRemove.Size = New System.Drawing.Size(14, 43)
+        Me.btnRemove.Size = New System.Drawing.Size(9, 28)
         Me.btnRemove.TabIndex = 181
         Me.btnRemove.Text = "Remove "
         Me.ToolTip1.SetToolTip(Me.btnRemove, "Removes checked items from the list.  Right Click to reset the warning dialog 'It" &
@@ -485,44 +462,41 @@ Partial Class PickedOrder
         'Panel4
         '
         Me.Panel4.Dock = System.Windows.Forms.DockStyle.Left
-        Me.Panel4.Location = New System.Drawing.Point(0, 120)
-        Me.Panel4.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.Panel4.Location = New System.Drawing.Point(0, 78)
         Me.Panel4.Name = "Panel4"
-        Me.Panel4.Size = New System.Drawing.Size(21, 814)
+        Me.Panel4.Size = New System.Drawing.Size(14, 529)
         Me.Panel4.TabIndex = 182
         '
         'Panel5
         '
         Me.Panel5.Dock = System.Windows.Forms.DockStyle.Right
-        Me.Panel5.Location = New System.Drawing.Point(1387, 120)
-        Me.Panel5.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.Panel5.Location = New System.Drawing.Point(925, 78)
         Me.Panel5.Name = "Panel5"
-        Me.Panel5.Size = New System.Drawing.Size(21, 814)
+        Me.Panel5.Size = New System.Drawing.Size(14, 529)
         Me.Panel5.TabIndex = 183
         '
         'Panel6
         '
         Me.Panel6.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Panel6.Location = New System.Drawing.Point(21, 120)
-        Me.Panel6.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.Panel6.Location = New System.Drawing.Point(14, 78)
         Me.Panel6.Name = "Panel6"
-        Me.Panel6.Size = New System.Drawing.Size(1366, 15)
+        Me.Panel6.Size = New System.Drawing.Size(911, 10)
         Me.Panel6.TabIndex = 184
         '
         'CtlBartender1
         '
         Me.CtlBartender1.Dock = System.Windows.Forms.DockStyle.Top
         Me.CtlBartender1.Location = New System.Drawing.Point(0, 0)
-        Me.CtlBartender1.Margin = New System.Windows.Forms.Padding(6)
+        Me.CtlBartender1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.CtlBartender1.Name = "CtlBartender1"
-        Me.CtlBartender1.Size = New System.Drawing.Size(1408, 120)
+        Me.CtlBartender1.Size = New System.Drawing.Size(939, 78)
         Me.CtlBartender1.TabIndex = 0
         '
         'PickedOrder
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1408, 934)
+        Me.ClientSize = New System.Drawing.Size(939, 607)
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.Panel6)
         Me.Controls.Add(Me.Panel5)
@@ -532,7 +506,6 @@ Partial Class PickedOrder
         Me.Controls.Add(Me.btnRefresh)
         Me.Controls.Add(Me.CtlBartender1)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
-        Me.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Name = "PickedOrder"
         Me.Text = "Retail Tag Printer"
         Me.Panel1.ResumeLayout(False)
