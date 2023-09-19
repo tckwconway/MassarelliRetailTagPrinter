@@ -13,7 +13,7 @@ Module MacolaStartup
 
         Try
 
-            Dim ConnStr As String = "Data Source=" & DefaultServer & ";Initial Catalog=" & DefaultDB & ";Persist Security Info=True;User ID=sa;Password=STMARTIN"
+            Dim ConnStr As String = "Data Source=" & DefaultServer & ";Initial Catalog=" & DefaultDB & ";Persist Security Info=True;User ID=sa;Password=C@sT1nST0nE"
 
             cn = New SqlConnection
             cn.ConnectionString = ConnStr

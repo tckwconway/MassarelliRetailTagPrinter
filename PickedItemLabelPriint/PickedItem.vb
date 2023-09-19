@@ -728,7 +728,6 @@ Public Class PickedOrder
         MacStartup(cOptionalCriteria.DBName)
         lblCurrentDB.Text = MacolaStartup.DefaultDB.ToString
         lblDefaultDB.Text = MacolaStartup.DefaultDB.ToString
-
         lblServer.Text = MacolaStartup.DefaultServer
 
         cOptionalCriteria.DBName = MacolaStartup.DefaultDB.ToString
